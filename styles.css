@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: brown;
+    background: #ede1f5;
+    background: linear-gradient(90ded, rbga(237, 225, 245, 1)0%, rbga(220, 161, 205, 1)67%, rbga(232, 182, 111, 1)84%, rbga(240, 225, 204, 1)95%, rbga(237, 187, 116, 1)100%);
+    position: relative;
+}
+
+h1{
+
+    font-size: 5rem;
+    font-family: "indie flower",cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 0;
+}
+
+.encabezado {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "indie flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+#inicio {
+    height: 100vh;
+    background: url(https://diarioroatan.com/wp-content/uploads/2019/05/621x470_-1480337258093.jpg)no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 2rem;
+    text-shadow: 8px 8px 4px;
+}
+
+#sobreMi {
+    height: 700px;
+    margin-bottom: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sm h2 {
+    margin: 180px 100px 130px 100px
+}
+
+#conocimiento {
+    height: 100vh;
+}
+
+#conocimiento {
+    margin: 150px 100px 130px 100px;
+    padding-top: 100px;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 130px 100px;
+    max-width: 800px;
+    gap: 1rem;
+    height: 700px;
+}
+
+.contenido div {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido div img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    transition: transform 0.8s ease;
+    border: 4px solid #fff;
+    background-color: white;
+}
+
+.contenido img:hover {
+    transform: rotateY(360deg);
+}
+
+#contacto h3 {
+    margin: 8px;
+    height: 20px;
+}
+
+form {
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 350px;
+    margin: 10px 0 10px 500px;
+}
+
+#formulario {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border: 6px;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.button_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px 10px;
+}
+
+button {
+    background-color:rgb(240,158,129);
+    color: black;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(240,158,129);
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;  
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+
+.network a {
+    text-align: center;
+    gap: 20px;
+}
+
+@media(min-width:765px) and (max-width:1024px){
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+font-size: 2rem;
+}
+
+h3{
+    font-size: 1.1rem;
+}
+
+header{
+    padding: 1rem;
+}
+
+.contenido{
+    margin: 80px 40px;
+    grid-template-columns: repeat(3.1fr);
+}
+
+.sm h2{
+margin: 100px 40px;
+}
+
+form{
+    margin: 10px auto;
+    width: 70%;
+}
+
+}

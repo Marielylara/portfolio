@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">Mariely</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobreMi">Sobre Mi</a></li>
+                <li><a href="#conocimiento">Conocimiento</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido a mi portfolio</h1>
+        <p>Encontraras los conocimientos adquiridos en relacion a los diferentes lenguajes para la creacion de paginas
+            web</p>
+    </section>
+
+    <section id="sobreMi">
+        <div class="sm">
+            <h2>Sobre Mi</h2>
+            <p>Mi enfoque es brindar conocimientos practicos y actuales para crear sitios web que se adapten a cualquier
+                dispositivo, actualmente me encuentro cursardo un curso completo sobre Javascrip, html, css, github, si
+                bien no vengo de la rama de la programacion, me llamo mucho la atencion este tema,
+                soy Licenciada en enfermeria, graduada desde hace mas 10 años, con especialidad en cuidados intensivos
+                adulto, pediatrico y neonatal, emergencias y un diplomado en enfermeria industrial o laboral.</p>
+        </div>
+    </section>
+
+
+    <section id="conocimiento">
+        <h2>Conocimiento</h2>
+        <div class="contenido">
+            <div><img src="/assets/html.jpg" alt="Imagene"></div>
+            <div><img src="/assets/css_nueva.png" alt="Imagen"></div>
+            <div><img src="/assets/JavaScript-Symbol.png" alt="Imagen"></div>
+            <div><img src="/assets/github_nueva.png" alt="Imagen"></div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <h3>Formulario</h3>
+        <form id="Formulario" action="/submit" method="post" enctype="multipart/form-data">
+            <label for="fullname" placeholder="Mariely Lara Mendoza"></label>
+            <input type="text" id="Mariely Lara Mendoza">
+            <label for="password"> ingrese su contraseña</label>
+            <input type="password" id="password" name="password" placeholder="******" required maxlength="8"
+                size="10" />
+            <label for="email">Ingrese su correo Electronico</label>
+            <input type="email" id="email" name="email" placeholder="Ej:eversahadai555@gmail.com">
+            <label for="date">Ingrese su fecha de Nacimiento </label>
+            <input type="date" id="date" name="date">
+            <div class="button_group">
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <footer>
+            <div>
+                <h3>redesSociales</h3>
+            </div>
+            <div class="network">
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/accounts/login/?source=auth_switcher&locale=es_ES"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <p>@2025 Mariely</p>
+            <p><a href="mailto:eversahadai555@gmail.com">eversahadai555@gmail.com</a></p>
+
+        </footer>
+
+    </section>
+</body>
+
+</html>
